@@ -1,4 +1,4 @@
--- @description P2B Toolbar Toggle
+-- @description P2B Toolbar Toggle F2
 -- @version 1.0
 -- Сохраняем позицию аранжировки
 reaper.Main_OnCommand(reaper.NamedCommandLookup("_SWS_SAVEVIEW"), 0)
