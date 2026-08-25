@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index version="1" name="Place2b Scripts">
+<?xml version="1.0" encoding="utf-8"?>
+<index version="1" name="Place2b Scripts" commit="c34a512c7b52698e24f700a1aea61f5ee88642d7">
+  <category name="Metadata">
+    <reapack name="SynthLoopMetadata_MediaExplorer_Updated.lua" type="script">
+      <version name="2.2 (Updated to handle reaper.ini and ReaperFileList)" author="Grok, based on user request" time="2026-08-25T16:20:44Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/c34a512c7b52698e24f700a1aea61f5ee88642d7/Metadata/SynthLoopMetadata_MediaExplorer_Updated.lua</source>
+      </version>
+    </reapack>
+    <reapack name="SynthLoopMetadata_MediaExplorer_WithGUI_Debug.lua" type="script">
+      <version name="3.1 (Added debug logging)" author="Grok, based on user request" time="2026-08-25T16:20:44Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/c34a512c7b52698e24f700a1aea61f5ee88642d7/Metadata/SynthLoopMetadata_MediaExplorer_WithGUI_Debug.lua</source>
+      </version>
+    </reapack>
+    <reapack name="SynthLoopMetadata_MediaExplorer_WithGUI_Final.lua" type="script">
+      <version name="3.5 (Fixed ImGui_End error, improved debugging)" author="Grok, based on user request" time="2026-08-25T16:20:44Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/c34a512c7b52698e24f700a1aea61f5ee88642d7/Metadata/SynthLoopMetadata_MediaExplorer_WithGUI_Final.lua</source>
+      </version>
+    </reapack>
+    <reapack name="SynthLoopMetadata_MediaExplorer_WithGUI_Fixed.lua" type="script">
+      <version name="3.3 (Fixed syntax error and added debug logging)" author="Grok, based on user request" time="2026-08-25T16:20:44Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/c34a512c7b52698e24f700a1aea61f5ee88642d7/Metadata/SynthLoopMetadata_MediaExplorer_WithGUI_Fixed.lua</source>
+      </version>
+    </reapack>
+  </category>
   <category name="Scripts">
     <reapack name="p2b_InsertFX_Wider.lua" type="script">
       <version name="1.0">
