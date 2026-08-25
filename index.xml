@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index version="1" name="Place2b Scripts">
+  <category name="Scripts">
+    <reapack name="p2b_InsertFX_Wider.lua" type="script">
+      <version name="1.0">
+        <source>https://raw.githubusercontent.com/Place2b/not-my-reaper-scripts/main/p2b_InsertFX_Wider.lua</source>
+      </version>
+    </reapack>
+  </category>
+</index>
