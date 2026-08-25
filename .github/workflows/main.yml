@@ -29,8 +29,8 @@ jobs:
     - name: Install reapack-index
       run: gem install reapack-index
 
-- name: Run reapack-index
-      run: reapack-index --name "Place2b Scripts" --commit --no-strict --category VSTs=VSTs --category TrackTemplates=TrackTemplates --category Metadata=Metadata
+    - name: Run reapack-index
+      run: reapack-index --name "Place2b Scripts" --commit --no-strict --category VSTs=VSTs --category TrackTemplates=TrackTemplates --category Metadata=Metadata --category Scripts=Scripts
 
     - name: Push Changes
       uses: ad-m/github-push-action@master
