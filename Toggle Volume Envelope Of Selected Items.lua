@@ -1,3 +1,6 @@
+-- @description p2b Toggle Volume Envelope Of Selected Items
+-- @version 1.0
+-- @provides [main] .
 local function no_undo() reaper.defer(function() end) end
 
 local trackMap = {}

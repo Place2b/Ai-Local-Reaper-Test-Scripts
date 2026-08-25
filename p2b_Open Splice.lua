@@ -1,3 +1,6 @@
+-- @description p2b_Open Splice
+-- @version 1.0
+-- @provides [main] .
 local os_name = reaper.GetOS()
 
 if os_name:find("Win") then

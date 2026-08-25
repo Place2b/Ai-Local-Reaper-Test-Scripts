@@ -1,3 +1,6 @@
+-- @description p2b Minimise All Muted Tracks
+-- @version 1.0
+-- @provides [main] .
 local minHeight = 24 -- Минимальная высота
 
 local function no_undo() reaper.defer(function() end) end

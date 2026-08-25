@@ -1,3 +1,6 @@
+-- @description P2b Add Track To MISC BUZZ
+-- @version 1.0
+-- @provides [main] .
 local function no_undo() reaper.defer(function() end) end
 
 local trackName = "MISC BUZZ"

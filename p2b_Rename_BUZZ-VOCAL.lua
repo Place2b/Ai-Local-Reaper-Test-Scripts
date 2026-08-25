@@ -1,3 +1,6 @@
+-- @description p2b_Rename_BUZZ-VOCAL
+-- @version 1.0
+-- @provides [main] .
 -- Ищем выделенный трек (или первый, если ничего не выделено)
 local track = reaper.GetSelectedTrack(0, 0)
 

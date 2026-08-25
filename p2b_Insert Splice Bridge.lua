@@ -1,3 +1,6 @@
+-- @description P2b Insert Splice Bridge
+-- @version 1.0
+-- @provides [main] .
 local function no_undo() reaper.defer(function() end) end
 
 local fxName = "Splice Bridge" -- Имя плагина для поиска

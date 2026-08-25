@@ -1,3 +1,7 @@
+-- @description p2b Switch to Reference (Multitrack)
+-- @version 1.0
+-- @provides [main] .
+
 local function no_undo() reaper.defer(function() end) end
 
 local itemCount = reaper.CountSelectedMediaItems(0)
