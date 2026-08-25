@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="Place2b Scripts" commit="c34a512c7b52698e24f700a1aea61f5ee88642d7">
+<index version="1" name="Place2b Scripts" commit="e3af3fb7edcb32180344ce9905c946149a27c2c5">
   <category name="Metadata">
     <reapack name="SynthLoopMetadata_MediaExplorer_Updated.lua" type="script">
       <version name="2.2 (Updated to handle reaper.ini and ReaperFileList)" author="Grok, based on user request" time="2026-08-25T16:20:44Z">
@@ -23,9 +23,94 @@
     </reapack>
   </category>
   <category name="Scripts">
+    <reapack name="Minimise All Muted Tracks.lua" type="script" desc="p2b Minimise All Muted Tracks">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Minimise%20All%20Muted%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Insert Splice Bridge.lua" type="script" desc="P2b Insert Splice Bridge">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Insert%20Splice%20Bridge.lua</source>
+      </version>
+    </reapack>
     <reapack name="p2b_InsertFX_Wider.lua" type="script">
       <version name="1.0">
         <source>https://raw.githubusercontent.com/Place2b/not-my-reaper-scripts/main/p2b_InsertFX_Wider.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Open midi.lua" type="script" desc="Open_MIDI_With_Zoom_And_ScrollToNotes">
+      <version name="1.0" author="Adapted from kawa_ and EEL script" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Open%20midi.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Open Splice.lua" type="script" desc="p2b_Open Splice">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Open%20Splice.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Open Splice_Add Track_Add SpliceBridge.lua" type="script" desc="p2b Add Track_Add SpliceBridge">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Open%20Splice_Add%20Track_Add%20SpliceBridge.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Rename_BUZZ-BASS.lua" type="script" desc="p2b_Rename_BUZZ-BASS">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Rename_BUZZ-BASS.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Rename_BUZZ-DRUMS.lua" type="script" desc="p2b_Rename_BUZZ-DRUMS">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Rename_BUZZ-DRUMS.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Rename_BUZZ-MISC.lua" type="script" desc="p2b_Rename_BUZZ-MISC">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Rename_BUZZ-MISC.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Rename_BUZZ-SYNTH.lua" type="script" desc="p2b_Rename_BUZZ-SYNTH">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Rename_BUZZ-SYNTH.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Rename_BUZZ-VOCAL.lua" type="script" desc="p2b_Rename_BUZZ-VOCAL">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Rename_BUZZ-VOCAL.lua</source>
+      </version>
+    </reapack>
+    <reapack name="p2b_Switch to Reference (Multitrack).lua" type="script" desc="p2b Switch to Reference (Multitrack)">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/p2b_Switch%20to%20Reference%20(Multitrack).lua</source>
+      </version>
+    </reapack>
+    <reapack name="Place2b_Add Track To MISC BUZZ.lua" type="script" desc="P2b Add Track To MISC BUZZ">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Place2b_Add%20Track%20To%20MISC%20BUZZ.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Place2b_Copy Item in Item lane.lua" type="script" desc="Copy selected item as take and split to new item lane">
+      <version name="5.2" author="Grok" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Place2b_Copy%20Item%20in%20Item%20lane.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Toggle Volume Envelope Of Selected Items.lua" type="script" desc="p2b Toggle Volume Envelope Of Selected Items">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Toggle%20Volume%20Envelope%20Of%20Selected%20Items.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Toolbar (open-close) F1.lua" type="script" desc="P2B Toolbar Toggle F1">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Toolbar%20(open-close)%20F1.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Toolbar (open-close) F2.lua" type="script" desc="P2B Toolbar Toggle F2">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Toolbar%20(open-close)%20F2.lua</source>
+      </version>
+    </reapack>
+    <reapack name="Toolbar (open-close) F3.lua" type="script" desc="P2B Toolbar Toggle F3">
+      <version name="1.0" time="2026-08-25T22:12:53Z">
+        <source main="main">https://github.com/Place2b/Ai-Local-Reaper-Test-Scripts/raw/e3af3fb7edcb32180344ce9905c946149a27c2c5/Scripts/Toolbar%20(open-close)%20F3.lua</source>
       </version>
     </reapack>
   </category>
